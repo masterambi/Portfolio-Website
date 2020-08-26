@@ -1,0 +1,209 @@
+/* -- UNIVERSAL -- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.clear {
+  clear: both;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 3.6rem;
+  padding: 2rem 0rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+button {
+  font-size: 1.8rem;
+}
+
+a {
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  min-width: 640px;
+  max-width: 1400px;
+}
+
+/* Font Color*/
+
+/* Background Color */
+
+/* -- HEADER -- */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background: white;
+  color: grey;
+}
+
+.navbar nav {
+  padding: 2rem 1rem;
+}
+
+.navbar nav h1 {
+  float: left;
+  color: #4a5568;
+}
+
+.navbar nav ul {
+  float: right;
+  list-style: none;
+}
+
+.navbar nav li {
+  float: left;
+  margin: 0rem 2rem;
+}
+
+.navbar nav li a {
+  color: gray;
+  text-decoration: none;
+  font-size: 2.2rem;
+}
+.navbar nav li a:hover {
+  color: #4a5568;
+}
+
+/* -- MAIN -- */
+
+section h2 {
+  color: #4a5568;
+  text-align: center;
+}
+
+/* Hero */
+
+.hero-section {
+  background-image: url('bg-hero.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.hero-section h2 {
+  padding-top: 40vh;
+  text-transform: uppercase;
+  font-size: 5.6rem;
+  color: white;
+  text-shadow: 3px 3px 3px gray;
+}
+
+.hero-section a {
+  display: inline-block;
+  font-weight: 700;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  background: white;
+  border: 1px solid #00acee;
+  border-radius: 0.5rem;
+  color: #4a5568;
+  cursor: pointer;
+}
+
+.hero-section a:hover {
+  color: white;
+  background-color: #00acee;
+}
+
+/* Contact */
+
+.contact-section {
+  padding-top: 4rem;
+}
+
+.contact-section h2 {
+  text-align: center;
+}
+
+.contact-section form {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+  display: block;
+  font-size: 1.8rem;
+  font-family: 'Open Sans', sans-serif;
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  color: #4a5568;
+}
+
+.contact-section form button {
+  padding: 1rem 3rem;
+  background-color: white;
+  border: 1px solid #00acee;
+  border-radius: 0.5rem;
+  color: #4a5568;
+  cursor: pointer;
+  font-weight: 700;
+  width: 100%;
+}
+
+.contact-section form button:hover {
+  color: white;
+  background-color: #00acee;
+}
+
+/* About */
+
+.about-section {
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.about-section img {
+  margin: 2rem auto;
+  width: 30%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.about-section p {
+  color: #4a5568;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 8rem;
+  padding: 2rem;
+  background-color: #4a5568;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+}
