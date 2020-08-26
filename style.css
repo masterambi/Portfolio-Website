@@ -131,10 +131,30 @@ section h2 {
   background-color: #00acee;
 }
 
+/* About */
+
+.about-section {
+  padding-top: 8rem;
+  text-align: center;
+}
+
+.about-section img {
+  margin: 2rem auto;
+  width: 30%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.about-section p {
+  color: #4a5568;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
 /* Contact */
 
 .contact-section {
-  padding-top: 4rem;
+  padding-top: 6rem;
 }
 
 .contact-section h2 {
@@ -175,29 +195,10 @@ section h2 {
   background-color: #00acee;
 }
 
-/* About */
-
-.about-section {
-  padding-top: 4rem;
-  text-align: center;
-}
-
-.about-section img {
-  margin: 2rem auto;
-  width: 30%;
-  height: auto;
-  border-radius: 0.5rem;
-}
-
-.about-section p {
-  color: #4a5568;
-  font-size: 2.2rem;
-  padding: 2rem;
-}
-
 /* FOOTER */
+
 footer {
-  margin-top: 8rem;
+  margin-top: 10rem;
   padding: 2rem;
   background-color: #4a5568;
 }
